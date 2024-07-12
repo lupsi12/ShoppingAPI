@@ -20,3 +20,8 @@ C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\Perso
 C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\refint\PersonelWebAPI.Requests.dll
 C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.pdb
 C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\ref\PersonelWebAPI.Requests.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.sourcelink.json
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\bin\Debug\net8.0\PersonelWebAPI.Enums.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\bin\Debug\net8.0\PersonelWebAPI.Enums.pdb
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.csproj.AssemblyReference.cache
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\Personel.4F248E61.Up2Date

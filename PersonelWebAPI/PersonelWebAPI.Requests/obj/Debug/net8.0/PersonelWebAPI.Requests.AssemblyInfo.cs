@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PersonelWebAPI.Requests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+124e052599eb0af5caecea0d41d7648f9db6df66")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersonelWebAPI.Requests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersonelWebAPI.Requests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

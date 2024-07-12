@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Hosting;
+using PersonelWebAPI.DataAccess;
+using PersonelWebAPI.Managers.Concretes;
 using PersonelWebAPIManagers.Concretes;
 namespace PersonelWebAPI.Controllers
 {
@@ -8,7 +10,10 @@ namespace PersonelWebAPI.Controllers
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<WebAPIDbContext>();
             services.AddSingleton<PersonelManager>();
+            services.AddSingleton<AddresManager>();
+            services.AddSingleton<AdminManager>();
             services.AddControllers();
             services.AddSwaggerDocument();
             services.AddCors(options =>

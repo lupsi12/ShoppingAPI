@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Enums\PersonelWebAPI.Enums.csproj" />
     <ProjectReference Include="..\PersonelWebAPI.DataAccess\PersonelWebAPI.DataAccess.csproj" />
     <ProjectReference Include="..\PersonelWebAPI.Entities\PersonelWebAPI.Entities.csproj" />
     <ProjectReference Include="..\PersonelWebAPI.Services\PersonelWebAPI.Services.csproj" />

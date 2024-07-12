@@ -192,3 +192,6 @@ C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\Perso
 C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Controllers\obj\Debug\net8.0\PersonelWebAPI.Controllers.pdb
 C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Controllers\obj\Debug\net8.0\PersonelWebAPI.Controllers.genruntimeconfig.cache
 C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Controllers\obj\Debug\net8.0\ref\PersonelWebAPI.Controllers.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Controllers\obj\Debug\net8.0\PersonelWebAPI.Controllers.sourcelink.json
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Controllers\bin\Debug\net8.0\PersonelWebAPI.Enums.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Controllers\bin\Debug\net8.0\PersonelWebAPI.Enums.pdb

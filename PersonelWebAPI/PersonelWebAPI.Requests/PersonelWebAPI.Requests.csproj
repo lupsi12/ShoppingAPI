@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Enums\PersonelWebAPI.Enums.csproj" />
+  </ItemGroup>
+
 </Project>

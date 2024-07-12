@@ -32,3 +32,6 @@ C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\Perso
 C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.pdb
 C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.genruntimeconfig.cache
 C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\ref\PersonelWebAPI.DataAccess.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.Enums.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.Enums.pdb
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.sourcelink.json

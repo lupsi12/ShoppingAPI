@@ -921,8 +921,16 @@
         }
       },
       "PersonelWebAPI.Entities/1.0.0": {
+        "dependencies": {
+          "PersonelWebAPI.Enums": "1.0.0"
+        },
         "runtime": {
           "PersonelWebAPI.Entities.dll": {}
+        }
+      },
+      "PersonelWebAPI.Enums/1.0.0": {
+        "runtime": {
+          "PersonelWebAPI.Enums.dll": {}
         }
       }
     }
@@ -1466,6 +1474,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "PersonelWebAPI.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersonelWebAPI.Enums/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

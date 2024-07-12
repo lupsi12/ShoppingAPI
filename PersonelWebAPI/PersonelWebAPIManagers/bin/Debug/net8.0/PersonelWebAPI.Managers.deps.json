@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.6",
           "PersonelWebAPI.DataAccess": "1.0.0",
           "PersonelWebAPI.Entities": "1.0.0",
+          "PersonelWebAPI.Enums": "1.0.0",
           "PersonelWebAPI.Services": "1.0.0"
         },
         "runtime": {
@@ -945,11 +946,22 @@
         }
       },
       "PersonelWebAPI.Entities/1.0.0": {
+        "dependencies": {
+          "PersonelWebAPI.Enums": "1.0.0"
+        },
         "runtime": {
           "PersonelWebAPI.Entities.dll": {}
         }
       },
+      "PersonelWebAPI.Enums/1.0.0": {
+        "runtime": {
+          "PersonelWebAPI.Enums.dll": {}
+        }
+      },
       "PersonelWebAPI.Requests/1.0.0": {
+        "dependencies": {
+          "PersonelWebAPI.Enums": "1.0.0"
+        },
         "runtime": {
           "PersonelWebAPI.Requests.dll": {}
         }
@@ -1525,6 +1537,11 @@
       "sha512": ""
     },
     "PersonelWebAPI.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersonelWebAPI.Enums/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonelWebAPI.Services", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonelWebAPI.Managers", "PersonelWebAPIManagers\PersonelWebAPI.Managers.csproj", "{8415435E-F980-41EC-97E5-2297E94174D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonelWebAPI.Controllers", "PersonelWebAPI.Controllers\PersonelWebAPI.Controllers.csproj", "{16C0A5A9-7C9D-432D-9309-ED58EC9FC2F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonelWebAPI.Controllers", "PersonelWebAPI.Controllers\PersonelWebAPI.Controllers.csproj", "{16C0A5A9-7C9D-432D-9309-ED58EC9FC2F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonelWebAPI.Enums", "Enums\PersonelWebAPI.Enums.csproj", "{3E481574-E4A0-44F0-A35B-165870270F26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{16C0A5A9-7C9D-432D-9309-ED58EC9FC2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16C0A5A9-7C9D-432D-9309-ED58EC9FC2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16C0A5A9-7C9D-432D-9309-ED58EC9FC2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E481574-E4A0-44F0-A35B-165870270F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E481574-E4A0-44F0-A35B-165870270F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E481574-E4A0-44F0-A35B-165870270F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E481574-E4A0-44F0-A35B-165870270F26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

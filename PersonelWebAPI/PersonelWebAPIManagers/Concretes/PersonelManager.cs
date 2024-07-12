@@ -1,5 +1,6 @@
 ﻿using PersonelWebAPI.DataAccess;
 using PersonelWebAPI.Entities;
+using PersonelWebAPI.Enums;
 using PersonelWebAPI.Requests;
 using PersonelWebAPI.Responses;
 using PersonelWebAPI.Services.Abstract;
@@ -46,12 +47,17 @@ namespace PersonelWebAPIManagers.Concretes
             using(var context = new WebAPIDbContext())
             {
                 Personel personel = new Personel();
+                personel.CreatedDate = DateTime.Now;
                 personel.Name = personelCreateRequest.Name;
                 personel.LastName = personelCreateRequest.LastName;
-                personel.IdentityNo = personelCreateRequest.IdentityNo;
                 personel.Email = personelCreateRequest.Email;
                 personel.Password = personelCreateRequest.Password;
                 personel.BirthDate = personelCreateRequest.BirthDate;
+                //personel.Addresses = personelCreateRequest.Addresses;
+                personel.Phone = personelCreateRequest.Phone;
+                personel.Role = Roles.PERSONEL;
+                personel.Status = Status.APPROVAL_WAIT;
+                personel.AdminId = personelCreateRequest.AdminId;
                 context.Personels.Add(personel);
                 context.SaveChanges();
                 PersonelResponse personelResponse = new PersonelResponse(personel);

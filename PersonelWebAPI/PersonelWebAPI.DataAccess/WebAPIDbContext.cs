@@ -10,12 +10,14 @@ namespace PersonelWebAPI.DataAccess
 {
     public class WebAPIDbContext:DbContext
     {
+        public DbSet<Addres> Addresses { get; set; }
+        public DbSet<Personel> Personels { get; set; }
+        public DbSet<Admin> Admins { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer("Server=ISILKEFAL\\SQLEXPRESS; Database=PersonelWebAPIDb; Integrated Security = true; TrustServerCertificate=true");
         }
-        public DbSet<Personel> Personels { get; set; }
-
+        
     }
 }
