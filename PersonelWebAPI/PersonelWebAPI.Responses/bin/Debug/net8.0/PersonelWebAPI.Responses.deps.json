@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PersonelWebAPI.Responses/1.0.0": {
+        "dependencies": {
+          "PersonelWebAPI.Entities": "1.0.0"
+        },
+        "runtime": {
+          "PersonelWebAPI.Responses.dll": {}
+        }
+      },
+      "PersonelWebAPI.Entities/1.0.0": {
+        "runtime": {
+          "PersonelWebAPI.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PersonelWebAPI.Responses/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersonelWebAPI.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.header {
+    background-color: #68538e;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 0 200px;
+}
+.navbar {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.navbar li {
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar link {
+    text-decoration: overline;
+}

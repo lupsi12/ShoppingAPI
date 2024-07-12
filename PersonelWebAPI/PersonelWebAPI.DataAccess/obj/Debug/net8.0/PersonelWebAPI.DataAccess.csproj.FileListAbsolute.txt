@@ -1,0 +1,34 @@
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.DataAccess.deps.json
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.DataAccess.runtimeconfig.json
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.DataAccess.dll
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.DataAccess.pdb
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.Entities.dll
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.Entities.pdb
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.AssemblyInfo.cs
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\Personel.FF782A0C.Up2Date
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.dll
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\refint\PersonelWebAPI.DataAccess.dll
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.pdb
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.genruntimeconfig.cache
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\ref\PersonelWebAPI.DataAccess.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.DataAccess.deps.json
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.DataAccess.runtimeconfig.json
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.DataAccess.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.DataAccess.pdb
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.Entities.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\bin\Debug\net8.0\PersonelWebAPI.Entities.pdb
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.AssemblyInfo.cs
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\Personel.FF782A0C.Up2Date
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\refint\PersonelWebAPI.DataAccess.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.pdb
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\PersonelWebAPI.DataAccess.genruntimeconfig.cache
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.DataAccess\obj\Debug\net8.0\ref\PersonelWebAPI.DataAccess.dll

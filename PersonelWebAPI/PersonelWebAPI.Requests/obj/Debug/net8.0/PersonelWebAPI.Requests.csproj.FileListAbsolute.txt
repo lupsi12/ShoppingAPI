@@ -1,0 +1,22 @@
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Requests\bin\Debug\net8.0\PersonelWebAPI.Requests.deps.json
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Requests\bin\Debug\net8.0\PersonelWebAPI.Requests.dll
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Requests\bin\Debug\net8.0\PersonelWebAPI.Requests.pdb
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.AssemblyInfoInputs.cache
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.AssemblyInfo.cs
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.csproj.CoreCompileInputs.cache
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.dll
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\refint\PersonelWebAPI.Requests.dll
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.pdb
+C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\ref\PersonelWebAPI.Requests.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\bin\Debug\net8.0\PersonelWebAPI.Requests.deps.json
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\bin\Debug\net8.0\PersonelWebAPI.Requests.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\bin\Debug\net8.0\PersonelWebAPI.Requests.pdb
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.AssemblyInfoInputs.cache
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.AssemblyInfo.cs
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.csproj.CoreCompileInputs.cache
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\refint\PersonelWebAPI.Requests.dll
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\PersonelWebAPI.Requests.pdb
+C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Requests\obj\Debug\net8.0\ref\PersonelWebAPI.Requests.dll
