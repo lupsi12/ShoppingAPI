@@ -12,7 +12,7 @@ using PersonelWebAPI.DataAccess;
 namespace PersonelWebAPI.DataAccess.Migrations
 {
     [DbContext(typeof(WebAPIDbContext))]
-    [Migration("20240712170314_init")]
+    [Migration("20240712211058_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -142,6 +142,56 @@ namespace PersonelWebAPI.DataAccess.Migrations
                     b.ToTable("Personels");
                 });
 
+            modelBuilder.Entity("PersonelWebAPI.Entities.Supplier", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AdminId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("Role")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AdminId");
+
+                    b.ToTable("Suppliers");
+                });
+
             modelBuilder.Entity("PersonelWebAPI.Entities.Addres", b =>
                 {
                     b.HasOne("PersonelWebAPI.Entities.Personel", "Personel")
@@ -164,9 +214,22 @@ namespace PersonelWebAPI.DataAccess.Migrations
                     b.Navigation("Admin");
                 });
 
+            modelBuilder.Entity("PersonelWebAPI.Entities.Supplier", b =>
+                {
+                    b.HasOne("PersonelWebAPI.Entities.Admin", "Admin")
+                        .WithMany("Suppliers")
+                        .HasForeignKey("AdminId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Admin");
+                });
+
             modelBuilder.Entity("PersonelWebAPI.Entities.Admin", b =>
                 {
                     b.Navigation("Personels");
+
+                    b.Navigation("Suppliers");
                 });
 
             modelBuilder.Entity("PersonelWebAPI.Entities.Personel", b =>

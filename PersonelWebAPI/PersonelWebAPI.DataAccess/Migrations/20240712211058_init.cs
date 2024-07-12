@@ -58,6 +58,33 @@ namespace PersonelWebAPI.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Suppliers",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Role = table.Column<int>(type: "int", nullable: false),
+                    Status = table.Column<int>(type: "int", nullable: false),
+                    AdminId = table.Column<int>(type: "int", nullable: false),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    UpdatedDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Suppliers", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Suppliers_Admins_AdminId",
+                        column: x => x.AdminId,
+                        principalTable: "Admins",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Addresses",
                 columns: table => new
                 {
@@ -88,6 +115,11 @@ namespace PersonelWebAPI.DataAccess.Migrations
                 name: "IX_Personels_AdminId",
                 table: "Personels",
                 column: "AdminId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Suppliers_AdminId",
+                table: "Suppliers",
+                column: "AdminId");
         }
 
         /// <inheritdoc />
@@ -95,6 +127,9 @@ namespace PersonelWebAPI.DataAccess.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Addresses");
+
+            migrationBuilder.DropTable(
+                name: "Suppliers");
 
             migrationBuilder.DropTable(
                 name: "Personels");

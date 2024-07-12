@@ -13,6 +13,7 @@ namespace PersonelWebAPI.DataAccess
         public DbSet<Addres> Addresses { get; set; }
         public DbSet<Personel> Personels { get; set; }
         public DbSet<Admin> Admins { get; set; }
+        public DbSet<Supplier> Suppliers { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

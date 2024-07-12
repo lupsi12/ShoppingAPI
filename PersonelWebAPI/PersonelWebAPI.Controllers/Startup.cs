@@ -11,6 +11,7 @@ namespace PersonelWebAPI.Controllers
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<WebAPIDbContext>();
+            services.AddSingleton<SupplierManager>();
             services.AddSingleton<PersonelManager>();
             services.AddSingleton<AddresManager>();
             services.AddSingleton<AdminManager>();

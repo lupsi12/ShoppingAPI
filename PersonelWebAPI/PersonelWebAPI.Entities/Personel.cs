@@ -32,6 +32,7 @@ namespace PersonelWebAPI.Entities
         public string Phone { get; set; }
         [Required(ErrorMessage = "Role is required")]
         public Roles Role { get; set; }
+        [Required(ErrorMessage = "Status is required")]
         public Status Status { get; set; }
 
         [ForeignKey("Admin")] // Foreign key attribute

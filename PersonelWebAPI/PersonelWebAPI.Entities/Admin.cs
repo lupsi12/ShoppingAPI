@@ -23,7 +23,9 @@ namespace PersonelWebAPI.Entities
         public Roles Role { get; set; }
         // Navigation property defined with [InverseProperty]
         [InverseProperty(nameof(Personel.Admin))]
-        public ICollection<Personel> Personels { get; set; } // Navigation property
+        public ICollection<Personel> Personels { get; set; } // Navigation
+        [InverseProperty(nameof(Supplier.Admin))]                                                     // 
+        public ICollection<Supplier> Suppliers { get; set; }
 
     }
 }
