@@ -1,54 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    ".NETFramework,Version=v8.0": {
       "PersonelWebAPI.Entities/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETFramework,Version=v8.0",
         "dependencies": {
           "PersonelWebAPI.Enums": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PersonelWebAPI.Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PersonelWebAPI.Entities.dll": {}
         }
       },
       "PersonelWebAPI.Enums/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/PersonelWebAPI.Enums.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PersonelWebAPI.Enums.dll": {}
-        }
+        "framework": ".NETFramework,Version=v8.0"
       },
       "PersonelWebAPI.Requests/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETFramework,Version=v8.0",
         "dependencies": {
           "PersonelWebAPI.Enums": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PersonelWebAPI.Requests.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PersonelWebAPI.Requests.dll": {}
         }
       },
       "PersonelWebAPI.Responses/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETFramework,Version=v8.0",
         "dependencies": {
           "PersonelWebAPI.Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PersonelWebAPI.Responses.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PersonelWebAPI.Responses.dll": {}
         }
       }
     }
@@ -76,14 +52,15 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    ".NETFramework,Version=v8.0": [
       "PersonelWebAPI.Entities >= 1.0.0",
       "PersonelWebAPI.Requests >= 1.0.0",
       "PersonelWebAPI.Responses >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Isil.Kefal\\.nuget\\packages\\": {}
+    "C:\\Users\\Isil.Kefal\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -94,20 +71,22 @@
       "packagesPath": "C:\\Users\\Isil.Kefal\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Isil.Kefal\\OneDrive - Logo\\Desktop\\PersonelProject\\PersonelWebAPI\\PersonelWebAPI.Services\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Isil.Kefal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net80"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
+        "net80": {
           "targetAlias": "net8.0",
           "projectReferences": {
             "C:\\Users\\Isil.Kefal\\OneDrive - Logo\\Desktop\\PersonelProject\\PersonelWebAPI\\PersonelWebAPI.Entities\\PersonelWebAPI.Entities.csproj": {
@@ -126,33 +105,11 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48",
-          "net481"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      "net80": {
+        "targetAlias": "net8.0"
       }
     }
   }

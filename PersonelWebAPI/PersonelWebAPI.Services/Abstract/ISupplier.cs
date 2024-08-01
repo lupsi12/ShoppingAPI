@@ -10,11 +10,11 @@ namespace PersonelWebAPI.Services.Abstract
 {
     public interface ISupplier
     {
-        List<SupplierResponse> getAllSuppliers(string? email = null, string? password = null);
-        SupplierResponse getSupplierById(int id);
-        SupplierResponse addSupplier(SupplierCreateRequest supplierCreateRequest);
-        void partialUpdateSupplier(int id,Dictionary<string, object> updates);
-        void deleteSuplier(int id);
+        List<SupplierResponse> GetAllSuppliers(string? email = null, string? password = null);
+        SupplierResponse GetSupplierById(int id);
+        SupplierResponse AddSupplier(SupplierCreateRequest supplierCreateRequest);
+        void PartialUpdateSupplier(int id,Dictionary<string, object> updates);
+        void DeleteSuplier(int id);
 
     }
 }

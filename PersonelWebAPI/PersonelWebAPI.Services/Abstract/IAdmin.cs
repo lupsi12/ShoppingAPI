@@ -10,11 +10,11 @@ namespace PersonelWebAPI.Services.Abstract
 {
     public interface IAdmin
     {
-        List<AdminResponse> getAllAdmins(string? email = null, string? password = null);
+        List<AdminResponse> GetAllAdmins(string? email = null, string? password = null);
         AdminResponse GetAdminById(int id);
-        AdminResponse addAdmin(AdminCreateRequest adminCreateRequest);
-        void partialUpdateAdmin(int id, Dictionary<string, object> updates);
-        void deleteAdmin(int id);
+        AdminResponse AddAdmin(AdminCreateRequest adminCreateRequest);
+        void PartialUpdateAdmin(int id, Dictionary<string, object> updates);
+        void DeleteAdmin(int id);
 
     }
 }

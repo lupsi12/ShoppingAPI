@@ -16,13 +16,13 @@ namespace PersonelWebAPI.Controllers.Controllers
             _adminManager = adminManager;
         }
         [HttpPost]
-        public AdminResponse addAdmin([FromBody] AdminCreateRequest adminCreateRequest)
+        public AdminResponse AddAdmin([FromBody] AdminCreateRequest adminCreateRequest)
         {
             return _adminManager.addAdmin(adminCreateRequest);
         }
         [HttpDelete("{id}")]
 
-        public void deleteAdmin(int id)
+        public void DeleteAdmin(int id)
         {
             _adminManager.deleteAdmin(id);
         }
@@ -33,12 +33,12 @@ namespace PersonelWebAPI.Controllers.Controllers
             return _adminManager.GetAdminById(id);
         }
         [HttpGet]
-        public List<AdminResponse> getAllAdmins([FromQuery] string? email = null, [FromQuery] string? password = null)
+        public List<AdminResponse> GetAllAdmins([FromQuery] string? email = null, [FromQuery] string? password = null)
         {
             return _adminManager.getAllAdmins(email, password);
         }
         [HttpPatch("{id}")]
-        public void partialUpdateAdmin(int id, [FromBody] Dictionary<string, object> updates)
+        public void PartialUpdateAdmin(int id, [FromBody] Dictionary<string, object> updates)
         {
             _adminManager.partialUpdateAdmin(id, updates);
         }

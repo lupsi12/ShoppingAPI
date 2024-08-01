@@ -11,11 +11,11 @@ namespace PersonelWebAPI.Services.Abstract
 {
     public interface IPersonel
     {
-        List<PersonelResponse> getAllPersonels(string? email = null, string? password = null);
-        PersonelResponse getPersonelById(int id);
-        PersonelResponse addPersonel(PersonelCreateRequest personelCreateRequest);
-        void partialUpdatePersonel(int id,Dictionary<string, object> updates);
-        void deletePersonel(int id);
-        void deleteAllPersonels();
+        List<PersonelResponse> GetAllPersonels(string? email = null, string? password = null);
+        PersonelResponse GetPersonelById(int id);
+        PersonelResponse AddPersonel(PersonelCreateRequest personelCreateRequest);
+        void PartialUpdatePersonel(int id,Dictionary<string, object> updates);
+        void DeletePersonel(int id);
+        void DeleteAllPersonels();
     }
 }

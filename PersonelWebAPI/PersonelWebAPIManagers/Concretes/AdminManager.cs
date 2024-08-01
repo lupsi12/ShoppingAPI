@@ -19,7 +19,7 @@ namespace PersonelWebAPI.Managers.Concretes
         {
             _context = context;
         }
-        public AdminResponse addAdmin(AdminCreateRequest adminCreateRequest)
+        public AdminResponse AddAdmin(AdminCreateRequest adminCreateRequest)
         {
             Admin admin = new Admin();
             admin.CreatedDate = DateTime.Now;
@@ -46,7 +46,7 @@ namespace PersonelWebAPI.Managers.Concretes
             return adminResponse;
         }
 
-        public List<AdminResponse> getAllAdmins(string? email = null, string? password = null)
+        public List<AdminResponse> GetAllAdmins(string? email = null, string? password = null)
         {
             IQueryable<Admin> query = _context.Admins;
             if (email != null && password != null)
@@ -63,7 +63,7 @@ namespace PersonelWebAPI.Managers.Concretes
             return adminResponses;
         }
 
-        public void partialUpdateAdmin(int id, Dictionary<string, object> updates)
+        public void PartialUpdateAdmin(int id, Dictionary<string, object> updates)
         {
             var admin = _context.Admins.FirstOrDefault(p => p.Id == id);
             if (admin != null) 

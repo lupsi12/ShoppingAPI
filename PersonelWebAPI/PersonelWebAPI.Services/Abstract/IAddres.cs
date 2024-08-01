@@ -10,11 +10,11 @@ namespace PersonelWebAPI.Services.Abstract
 {
     public interface IAddres
     {
-        List<AddresResponse> getAllAddres(int? personelId=null);
-        AddresResponse getAddresbyId(int id);
-        AddresResponse addAddres(AddresCreateRequest addresCreateRequest);
-        void partialUpdateAddres(int id, Dictionary<string, object> updates);
-        void deleteAddres(int id);
+        List<AddresResponse> GetAllAddres(int? personelId=null);
+        AddresResponse GetAddresbyId(int id);
+        AddresResponse AddAddres(AddresCreateRequest addresCreateRequest);
+        void PartialUpdateAddres(int id, Dictionary<string, object> updates);
+        void DeleteAddres(int id);
 
     }
 }

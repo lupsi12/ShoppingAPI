@@ -14,7 +14,7 @@ namespace PersonelWebAPIManagers.Concretes
 {
     public class PersonelManager : IPersonel
     {
-        public List<PersonelResponse> getAllPersonels(string? email = null, string? password = null)
+        public List<PersonelResponse> GetAllPersonels(string? email = null, string? password = null)
         {
             using (var context = new WebAPIDbContext())
             {
@@ -33,7 +33,7 @@ namespace PersonelWebAPIManagers.Concretes
                 return personelResponses;
             }
         }
-        public PersonelResponse getPersonelById(int personelId)
+        public PersonelResponse GetPersonelById(int personelId)
         {
             using (var context = new WebAPIDbContext())
             {
@@ -42,7 +42,7 @@ namespace PersonelWebAPIManagers.Concretes
                 return personelResponse;
             }
         }
-        public PersonelResponse addPersonel(PersonelCreateRequest personelCreateRequest)
+        public PersonelResponse AddPersonel(PersonelCreateRequest personelCreateRequest)
         {
             using(var context = new WebAPIDbContext())
             {
@@ -64,7 +64,7 @@ namespace PersonelWebAPIManagers.Concretes
                 return personelResponse;
             }
         }
-        public void partialUpdatePersonel(int id, Dictionary<string, object> updates)
+        public void PartialUpdatePersonel(int id, Dictionary<string, object> updates)
         {
             using (var context = new WebAPIDbContext())
             {
@@ -94,7 +94,7 @@ namespace PersonelWebAPIManagers.Concretes
             }
         }
 
-        public void deleteAllPersonels()
+        public void DeleteAllPersonels()
         {
             using (var context = new WebAPIDbContext())
             {
@@ -104,7 +104,7 @@ namespace PersonelWebAPIManagers.Concretes
             }
         }
 
-        public void deletePersonel(int id)
+        public void DeletePersonel(int id)
         {
             using (var context = new WebAPIDbContext())
             {

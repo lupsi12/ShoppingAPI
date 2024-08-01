@@ -18,8 +18,7 @@ namespace PersonelWebAPI.Managers.Concretes
         {
             _context = context;
         }
-
-        public SupplierResponse addSupplier(SupplierCreateRequest supplierCreateRequest)
+        public SupplierResponse AddSupplier(SupplierCreateRequest supplierCreateRequest)
         {
             Supplier supplier = new Supplier();
             supplier.CreatedDate = DateTime.Now;
@@ -35,8 +34,7 @@ namespace PersonelWebAPI.Managers.Concretes
             SupplierResponse supplierResponse = new SupplierResponse(supplier);
             return supplierResponse;
         }
-
-        public void deleteSuplier(int id)
+        public void DeleteSuplier(int id)
         {
             var deleteSupplier = _context.Suppliers.Find(id);
 
@@ -46,9 +44,7 @@ namespace PersonelWebAPI.Managers.Concretes
                 _context.SaveChanges();
             }
         }
-
-
-        public List<SupplierResponse> getAllSuppliers(string? email = null, string? password = null)
+        public List<SupplierResponse> GetAllSuppliers(string? email = null, string? password = null)
         {
             IQueryable<Supplier> query = _context.Suppliers;
             if (email != null && password != null)
@@ -64,7 +60,7 @@ namespace PersonelWebAPI.Managers.Concretes
             return supplierResponses;
         }
 
-        public SupplierResponse getSupplierById(int id)
+        public SupplierResponse GetSupplierById(int id)
         {
             Supplier supplier = _context.Suppliers.Find(id);
             if (supplier == null) 
@@ -75,7 +71,7 @@ namespace PersonelWebAPI.Managers.Concretes
             return supplierResponse;
         }
 
-        public void partialUpdateSupplier(int id, Dictionary<string, object> updates)
+        public void PartialUpdateSupplier(int id, Dictionary<string, object> updates)
         {
             
             var supplier = _context.Suppliers.FirstOrDefault(x => x.Id == id);

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\PersonelWebAPI.Controllers.props" />
-</Project>

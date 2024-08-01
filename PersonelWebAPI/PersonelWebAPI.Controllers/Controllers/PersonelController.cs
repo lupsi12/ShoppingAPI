@@ -18,34 +18,34 @@ namespace PersonelWebAPI.Controllers.Controllers
             _personelManager = personelManager;
         }
         [HttpPost]
-        public PersonelResponse addPersonel([FromBody]PersonelCreateRequest personelCreateRequest)
+        public PersonelResponse AddPersonel([FromBody]PersonelCreateRequest personelCreateRequest)
         {
             return _personelManager.addPersonel(personelCreateRequest);
         }
         [HttpDelete]
-        public void deleteAllPersonels()
+        public void DeleteAllPersonels()
         {
             _personelManager?.deleteAllPersonels();
         }
         [HttpDelete("{id}")]
-        public void deletePersonel(int id)
+        public void DeletePersonel(int id)
         {
             _personelManager.deletePersonel(id);
         }
         [HttpGet]
-        public List<PersonelResponse> getAllPersonels([FromQuery]  string? email = null, [FromQuery] string? password = null)
+        public List<PersonelResponse> GetAllPersonels([FromQuery]  string? email = null, [FromQuery] string? password = null)
         {
             return _personelManager.getAllPersonels(email, password);
         }
         [HttpGet("{id}")]
 
-        public PersonelResponse getPersonelById(int id)
+        public PersonelResponse GetPersonelById(int id)
         {
             return _personelManager.getPersonelById(id);
         }
         [HttpPatch("{id}")]
 
-        public void partialUpdatePersonel(int id, [FromBody] Dictionary<string, object> updates)
+        public void PartialUpdatePersonel(int id, [FromBody] Dictionary<string, object> updates)
         {
             _personelManager.partialUpdatePersonel(id, updates);
         }

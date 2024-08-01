@@ -18,7 +18,7 @@ namespace PersonelWebAPI.Managers.Concretes
         {
             _context = context;
         }
-        public AddresResponse addAddres(AddresCreateRequest addresCreateRequest)
+        public AddresResponse AddAddres(AddresCreateRequest addresCreateRequest)
         {
             Addres addres = new Addres();
             addres.Address = addresCreateRequest.Addres;
@@ -30,14 +30,14 @@ namespace PersonelWebAPI.Managers.Concretes
             return addresResponse;
         }
 
-        public void deleteAddres(int id)
+        public void DeleteAddres(int id)
         {
             var deleteAddres = _context.Addresses.Find(id);
             _context.Addresses.RemoveRange(deleteAddres);
             _context.SaveChanges();
         }
 
-        public AddresResponse getAddresbyId(int id)
+        public AddresResponse GetAddresbyId(int id)
         {
             var addres = _context.Addresses.Find(id);
             AddresResponse addresResponse = new AddresResponse(addres);
@@ -57,7 +57,7 @@ namespace PersonelWebAPI.Managers.Concretes
             return addresResponses;
         }
 
-        public void partialUpdateAddres(int id, Dictionary<string, object> updates)
+        public void PartialUpdateAddres(int id, Dictionary<string, object> updates)
         {
             var addres = _context.Addresses.FirstOrDefault(x => x.Id == id);
             if (addres != null)

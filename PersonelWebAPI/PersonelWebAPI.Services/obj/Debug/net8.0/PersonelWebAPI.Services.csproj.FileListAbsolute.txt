@@ -17,25 +17,3 @@ C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Services\obj\Debu
 C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\refint\PersonelWebAPI.Services.dll
 C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\PersonelWebAPI.Services.pdb
 C:\Users\Isil.Kefal\source\repos\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\ref\PersonelWebAPI.Services.dll
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\bin\Debug\net8.0\PersonelWebAPI.Services.deps.json
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\bin\Debug\net8.0\PersonelWebAPI.Services.dll
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\bin\Debug\net8.0\PersonelWebAPI.Services.pdb
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\bin\Debug\net8.0\PersonelWebAPI.Entities.dll
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\bin\Debug\net8.0\PersonelWebAPI.Requests.dll
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\bin\Debug\net8.0\PersonelWebAPI.Responses.dll
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\bin\Debug\net8.0\PersonelWebAPI.Entities.pdb
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\bin\Debug\net8.0\PersonelWebAPI.Requests.pdb
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\bin\Debug\net8.0\PersonelWebAPI.Responses.pdb
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\PersonelWebAPI.Services.csproj.AssemblyReference.cache
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\PersonelWebAPI.Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\PersonelWebAPI.Services.AssemblyInfoInputs.cache
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\PersonelWebAPI.Services.AssemblyInfo.cs
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\PersonelWebAPI.Services.csproj.CoreCompileInputs.cache
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\Personel.C7B4BA11.Up2Date
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\PersonelWebAPI.Services.dll
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\refint\PersonelWebAPI.Services.dll
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\PersonelWebAPI.Services.pdb
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\ref\PersonelWebAPI.Services.dll
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\obj\Debug\net8.0\PersonelWebAPI.Services.sourcelink.json
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\bin\Debug\net8.0\PersonelWebAPI.Enums.dll
-C:\Users\Isil.Kefal\OneDrive - Logo\Desktop\PersonelProject\PersonelWebAPI\PersonelWebAPI.Services\bin\Debug\net8.0\PersonelWebAPI.Enums.pdb
