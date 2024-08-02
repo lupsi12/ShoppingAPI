@@ -17,7 +17,8 @@ namespace PersonelWebAPI.DataAccess
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=ISILKEFAL\\SQLEXPRESS; Database=PersonelWebAPIDb; Integrated Security = true; TrustServerCertificate=true");
+            //optionsBuilder.UseSqlServer("Server=ISILKEFAL\\SQLEXPRESS; Database=PersonelWebAPIDb; Integrated Security = true; TrustServerCertificate=true");
+            optionsBuilder.UseSqlServer("Server=localhost; Database=PersonelWebAPIDb;User Id=sa;Password=Kefal09sl@; TrustServerCertificate=true");
         }
         
     }

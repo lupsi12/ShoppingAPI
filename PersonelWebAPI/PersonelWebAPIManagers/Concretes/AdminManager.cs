@@ -32,7 +32,7 @@ namespace PersonelWebAPI.Managers.Concretes
             return adminResponse;
         }
 
-        public void deleteAdmin(int id)
+        public void DeleteAdmin(int id)
         {
             var deleteAdmin = _context.Admins.Find(id);
             _context.Admins.RemoveRange(deleteAdmin);

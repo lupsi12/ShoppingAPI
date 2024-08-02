@@ -1,10 +1,16 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v8.0": {
+    "net8.0": {
       "PersonelWebAPI.Enums/1.0.0": {
         "type": "project",
-        "framework": ".NETFramework,Version=v8.0"
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PersonelWebAPI.Enums.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PersonelWebAPI.Enums.dll": {}
+        }
       }
     }
   },
@@ -16,43 +22,37 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v8.0": [
+    "net8.0": [
       "PersonelWebAPI.Enums >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Isil.Kefal\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/user/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Isil.Kefal\\OneDrive - Logo\\Desktop\\PersonelProject\\PersonelWebAPI\\PersonelWebAPI.Entities\\PersonelWebAPI.Entities.csproj",
+      "projectUniqueName": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj",
       "projectName": "PersonelWebAPI.Entities",
-      "projectPath": "C:\\Users\\Isil.Kefal\\OneDrive - Logo\\Desktop\\PersonelProject\\PersonelWebAPI\\PersonelWebAPI.Entities\\PersonelWebAPI.Entities.csproj",
-      "packagesPath": "C:\\Users\\Isil.Kefal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Isil.Kefal\\OneDrive - Logo\\Desktop\\PersonelProject\\PersonelWebAPI\\PersonelWebAPI.Entities\\obj\\",
+      "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj",
+      "packagesPath": "/Users/user/.nuget/packages/",
+      "outputPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Isil.Kefal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/user/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net80"
+        "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net80": {
+        "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Isil.Kefal\\OneDrive - Logo\\Desktop\\PersonelProject\\PersonelWebAPI\\Enums\\PersonelWebAPI.Enums.csproj": {
-              "projectPath": "C:\\Users\\Isil.Kefal\\OneDrive - Logo\\Desktop\\PersonelProject\\PersonelWebAPI\\Enums\\PersonelWebAPI.Enums.csproj"
+            "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {
+              "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj"
             }
           }
         }
@@ -64,8 +64,25 @@
       }
     },
     "frameworks": {
-      "net80": {
-        "targetAlias": "net8.0"
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

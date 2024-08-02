@@ -44,7 +44,7 @@ namespace PersonelWebAPI.Managers.Concretes
             return addresResponse;
         }
 
-        public List<AddresResponse> getAllAddres(int? personelId = null)
+        public List<AddresResponse> GetAllAddres(int? personelId = null)
         {
             IQueryable<Addres> query = _context.Addresses.AsQueryable();
             if (personelId != null)

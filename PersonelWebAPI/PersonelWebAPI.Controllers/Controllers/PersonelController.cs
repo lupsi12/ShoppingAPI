@@ -20,34 +20,34 @@ namespace PersonelWebAPI.Controllers.Controllers
         [HttpPost]
         public PersonelResponse AddPersonel([FromBody]PersonelCreateRequest personelCreateRequest)
         {
-            return _personelManager.addPersonel(personelCreateRequest);
+            return _personelManager.AddPersonel(personelCreateRequest);
         }
         [HttpDelete]
         public void DeleteAllPersonels()
         {
-            _personelManager?.deleteAllPersonels();
+            _personelManager?.DeleteAllPersonels();
         }
         [HttpDelete("{id}")]
         public void DeletePersonel(int id)
         {
-            _personelManager.deletePersonel(id);
+            _personelManager.DeletePersonel(id);
         }
         [HttpGet]
         public List<PersonelResponse> GetAllPersonels([FromQuery]  string? email = null, [FromQuery] string? password = null)
         {
-            return _personelManager.getAllPersonels(email, password);
+            return _personelManager.GetAllPersonels(email, password);
         }
         [HttpGet("{id}")]
 
         public PersonelResponse GetPersonelById(int id)
         {
-            return _personelManager.getPersonelById(id);
+            return _personelManager.GetPersonelById(id);
         }
         [HttpPatch("{id}")]
 
         public void PartialUpdatePersonel(int id, [FromBody] Dictionary<string, object> updates)
         {
-            _personelManager.partialUpdatePersonel(id, updates);
+            _personelManager.PartialUpdatePersonel(id, updates);
         }
     }
 }
