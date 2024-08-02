@@ -23,12 +23,6 @@ C:/Users/Isil.Kefal/source/repos/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug
 C:/Users/Isil.Kefal/source/repos/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.pdb
 C:/Users/Isil.Kefal/source/repos/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.genruntimeconfig.cache
 C:/Users/Isil.Kefal/source/repos/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/ref/PersonelWebAPI.Managers.dll
-/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.csproj.AssemblyReference.cache
-/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.GeneratedMSBuildEditorConfig.editorconfig
-/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.AssemblyInfoInputs.cache
-/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.AssemblyInfo.cs
-/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.csproj.CoreCompileInputs.cache
-/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.sourcelink.json
 /Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/bin/Debug/net8.0/PersonelWebAPI.Managers.deps.json
 /Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/bin/Debug/net8.0/PersonelWebAPI.Managers.runtimeconfig.json
 /Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/bin/Debug/net8.0/PersonelWebAPI.Managers.dll
@@ -45,6 +39,12 @@ C:/Users/Isil.Kefal/source/repos/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug
 /Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/bin/Debug/net8.0/PersonelWebAPI.Services.pdb
 /Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/bin/Debug/net8.0/PersonelWebAPI.Requests.pdb
 /Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/bin/Debug/net8.0/PersonelWebAPI.Responses.pdb
+/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.csproj.AssemblyReference.cache
+/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.AssemblyInfoInputs.cache
+/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.AssemblyInfo.cs
+/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.csproj.CoreCompileInputs.cache
+/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.sourcelink.json
 /Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/Personel.CAE6BEF8.Up2Date
 /Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/PersonelWebAPI.Managers.dll
 /Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/Debug/net8.0/refint/PersonelWebAPI.Managers.dll
