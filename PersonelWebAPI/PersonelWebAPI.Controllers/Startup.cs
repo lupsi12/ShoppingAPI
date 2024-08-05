@@ -1,5 +1,6 @@
 ﻿using PersonelWebAPI.UnitOfWork.UnitOfWork;
 using PersonelWebAPI.DataAccess;
+using PersonelWebAPI.Entities;
 using PersonelWebAPI.Managers.Concretes;
 
 namespace PersonelWebAPI.Controllers
@@ -16,6 +17,11 @@ namespace PersonelWebAPI.Controllers
             services.AddSingleton<PersonelManager>();
             services.AddSingleton<AddresManager>();
             services.AddSingleton<AdminManager>();
+            services.AddSingleton<CartDetailManager>();
+            services.AddSingleton<CartManager>();
+            services.AddSingleton<SaleManager>();
+            services.AddSingleton<ProductManager>();
+            services.AddSingleton<CategoryManager>();
             services.AddControllers();
             services.AddSwaggerDocument();
             services.AddCors(options =>

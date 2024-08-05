@@ -33,5 +33,10 @@ namespace PersonelWebAPI.Entities
         public int AdminId { get; set; }
         [InverseProperty(nameof(Admin.Suppliers))]
         public Admin Admin { get; set; }
+        
+        //supplierın birden çok productsı olabilir
+        // Navigation property defined with [InverseProperty]
+        [InverseProperty(nameof(Product.Supplier))]
+        public ICollection<Product> Products { get; set; } // Navigation property
     }
 }

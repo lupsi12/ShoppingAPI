@@ -34,6 +34,7 @@ namespace PersonelWebAPI.Entities
         public Roles Role { get; set; }
         [Required(ErrorMessage = "Status is required")]
         public Status Status { get; set; }
+        //personelin bir admini olmalı
 
         [ForeignKey("Admin")] // Foreign key attribute
         public int AdminId { get; set; } // Foreign key
@@ -41,8 +42,14 @@ namespace PersonelWebAPI.Entities
         // Navigation property defined with [InverseProperty]
         [InverseProperty(nameof(Admin.Personels))]
         public Admin Admin { get; set; } // Navigation property
+        
+        //personelin birden çok addresi olabilir
         // Navigation property defined with [InverseProperty]
         [InverseProperty(nameof(Addres.Personel))]
         public ICollection<Addres> Addresses { get; set; } // Navigation property
+        //personelin birden çok cartsı olabilir
+        // Navigation property defined with [InverseProperty]
+        [InverseProperty(nameof(Cart.Personel))]
+        public ICollection<Cart> Carts { get; set; } // Navigation property
     }
 }

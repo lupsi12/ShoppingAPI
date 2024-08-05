@@ -10,9 +10,6 @@ namespace PersonelWebAPI.Requests
 {
     public class AddresCreateRequest
     {
-        public int Id { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public DateTime UpdatedDate { get; set; }
         public int PersonelId { get; set; } 
         public string Addres { get; set; }
     }

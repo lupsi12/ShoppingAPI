@@ -22,7 +22,7 @@ namespace PersonelWebAPI.Managers.Concretes
         {
             Addres addres = new Addres();
             addres.Address = addresCreateRequest.Addres;
-            addres.CreatedDate = addresCreateRequest.CreatedDate;
+            addres.CreatedDate = DateTime.Now;
             addres.PersonelId = addresCreateRequest.PersonelId;
             _context.Addresses.Add(addres);
             AddresResponse addresResponse = new AddresResponse(addres);

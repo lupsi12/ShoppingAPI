@@ -7,9 +7,6 @@ namespace PersonelWebAPI.Requests
 {
     public class PersonelCreateRequest
     {
-        public int Id { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public DateTime UpdatedDate { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
@@ -17,8 +14,6 @@ namespace PersonelWebAPI.Requests
         public DateTime BirthDate { get; set; }
         //public List<string> Addresses { get; set; }
         public string Phone { get; set; }
-        public Roles Role { get; set; }
-        public Status Status { get; set; }
         public int AdminId { get; set; } // foreign key
 
     }

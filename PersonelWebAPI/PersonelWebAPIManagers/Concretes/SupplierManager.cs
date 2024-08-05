@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PersonelWebAPI.Enums;
 
 namespace PersonelWebAPI.Managers.Concretes
 {
@@ -27,7 +28,7 @@ namespace PersonelWebAPI.Managers.Concretes
             supplier.Email = supplierCreateRequest.Email;
             supplier.Password = supplierCreateRequest.Password;
             supplier.Role = Enums.Roles.SUPPLIER;
-            supplier.Status = supplierCreateRequest.Status;
+            supplier.Status = Status.APPROVAL_WAIT;
             supplier.AdminId = supplierCreateRequest.AdminId;
             _context.Suppliers.Add(supplier);
             SupplierResponse supplierResponse = new SupplierResponse(supplier);

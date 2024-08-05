@@ -11,13 +11,7 @@ namespace PersonelWebAPI.Requests
 {
     public class AdminCreateRequest
     {
-        public int Id { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public DateTime UpdatedDate { get; set; }
         public string Email { get; set; }
-
         public string Password { get; set; }
-       
-        public Roles Role { get; set; }
     }
 }
