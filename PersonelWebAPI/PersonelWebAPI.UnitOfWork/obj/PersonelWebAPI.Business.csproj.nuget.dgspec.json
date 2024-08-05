@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/PersonelWebAPI.Controllers.csproj": {}
+    "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Business/PersonelWebAPI.Business.csproj": {}
   },
   "projects": {
     "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {
@@ -57,14 +57,14 @@
         }
       }
     },
-    "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/PersonelWebAPI.Controllers.csproj": {
+    "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Business/PersonelWebAPI.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/PersonelWebAPI.Controllers.csproj",
-        "projectName": "PersonelWebAPI.Controllers",
-        "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/PersonelWebAPI.Controllers.csproj",
+        "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Business/PersonelWebAPI.Business.csproj",
+        "projectName": "PersonelWebAPI.Business",
+        "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Business/PersonelWebAPI.Business.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/obj/",
+        "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Business/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -82,8 +82,8 @@
               "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj": {
                 "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj"
               },
-              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.UnitOfWork/PersonelWebAPI.UnitOfWork.csproj": {
-                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.UnitOfWork/PersonelWebAPI.UnitOfWork.csproj"
+              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj"
               },
               "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj": {
                 "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj"
@@ -100,36 +100,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "NSwag.AspNetCore": {
-              "target": "Package",
-              "version": "[14.0.8, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
-            },
-            "Swashbuckle.AspNetCore.Swagger": {
-              "target": "Package",
-              "version": "[6.6.2, )"
-            },
-            "Swashbuckle.AspNetCore.SwaggerGen": {
-              "target": "Package",
-              "version": "[6.6.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -142,9 +112,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -426,69 +393,6 @@
               },
               "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Responses/PersonelWebAPI.Responses.csproj": {
                 "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Responses/PersonelWebAPI.Responses.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.UnitOfWork/PersonelWebAPI.UnitOfWork.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.UnitOfWork/PersonelWebAPI.UnitOfWork.csproj",
-        "projectName": "PersonelWebAPI.UnitOfWork",
-        "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.UnitOfWork/PersonelWebAPI.UnitOfWork.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.UnitOfWork/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj": {
-                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj"
-              },
-              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj": {
-                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj"
-              },
-              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj": {
-                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj"
               }
             }
           }

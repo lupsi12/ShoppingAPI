@@ -1,4 +1,4 @@
-﻿using PersonelWebAPI.Business.UnitOfWork;
+﻿using PersonelWebAPI.UnitOfWork.UnitOfWork;
 using PersonelWebAPI.DataAccess;
 using PersonelWebAPI.Managers.Concretes;
 
@@ -10,7 +10,7 @@ namespace PersonelWebAPI.Controllers
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork.UnitOfWork.UnitOfWork>();
             services.AddSingleton<WebAPIDbContext>();
             services.AddSingleton<SupplierManager>();
             services.AddSingleton<PersonelManager>();

@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonelWebAPI.Controllers"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonelWebAPI.Enums", "Enums\PersonelWebAPI.Enums.csproj", "{3E481574-E4A0-44F0-A35B-165870270F26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonelWebAPI.Business", "PersonelWebAPI.Business\PersonelWebAPI.Business.csproj", "{A047E13A-9BB4-4736-99FB-05069927AC15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonelWebAPI.UnitOfWork", "PersonelWebAPI.UnitOfWork\PersonelWebAPI.UnitOfWork.csproj", "{A047E13A-9BB4-4736-99FB-05069927AC15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

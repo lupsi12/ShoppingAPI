@@ -301,5 +301,5 @@ C:/Users/Isil.Kefal/source/repos/PersonelWebAPI/PersonelWebAPI.Controllers/obj/D
 /Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/obj/Debug/net8.0/PersonelWebAPI.Controllers.pdb
 /Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/obj/Debug/net8.0/PersonelWebAPI.Controllers.genruntimeconfig.cache
 /Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/obj/Debug/net8.0/ref/PersonelWebAPI.Controllers.dll
-/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/bin/Debug/net8.0/PersonelWebAPI.Business.dll
-/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/bin/Debug/net8.0/PersonelWebAPI.Business.pdb
+/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/bin/Debug/net8.0/PersonelWebAPI.UnitOfWork.dll
+/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/bin/Debug/net8.0/PersonelWebAPI.UnitOfWork.pdb

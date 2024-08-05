@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
 using PersonelWebAPI.Controllers.Abstract;
-using PersonelWebAPI.Business.UnitOfWork;
+using PersonelWebAPI.UnitOfWork.UnitOfWork;
 using PersonelWebAPI.Requests;
 using PersonelWebAPI.Responses;
 using PersonelWebAPI.Managers.Concretes;

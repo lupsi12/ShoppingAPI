@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PersonelWebAPI.Business.UnitOfWork;
+using PersonelWebAPI.UnitOfWork.UnitOfWork;
 using PersonelWebAPI.Controllers.Abstract;
 using PersonelWebAPI.Managers.Concretes;
 using PersonelWebAPI.Requests;
