@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj": {}
+    "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj": {}
   },
   "projects": {
-    "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {
+    "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj",
+        "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj",
         "projectName": "PersonelWebAPI.Enums",
-        "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj",
+        "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/obj/",
+        "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj": {
+    "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj",
+        "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj",
         "projectName": "PersonelWebAPI.DataAccess",
-        "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj",
+        "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.DataAccess/obj/",
+        "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -79,8 +79,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj": {
-                "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj"
+              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj"
               }
             }
           }
@@ -126,14 +126,14 @@
         }
       }
     },
-    "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj": {
+    "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj",
+        "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj",
         "projectName": "PersonelWebAPI.Entities",
-        "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj",
+        "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/obj/",
+        "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -148,8 +148,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {
-                "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj"
+              "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj"
               }
             }
           }
@@ -183,14 +183,14 @@
         }
       }
     },
-    "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Requests/PersonelWebAPI.Requests.csproj": {
+    "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Requests/PersonelWebAPI.Requests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Requests/PersonelWebAPI.Requests.csproj",
+        "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Requests/PersonelWebAPI.Requests.csproj",
         "projectName": "PersonelWebAPI.Requests",
-        "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Requests/PersonelWebAPI.Requests.csproj",
+        "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Requests/PersonelWebAPI.Requests.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Requests/obj/",
+        "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Requests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -205,8 +205,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {
-                "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj"
+              "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj"
               }
             }
           }
@@ -240,14 +240,14 @@
         }
       }
     },
-    "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Responses/PersonelWebAPI.Responses.csproj": {
+    "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Responses/PersonelWebAPI.Responses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Responses/PersonelWebAPI.Responses.csproj",
+        "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Responses/PersonelWebAPI.Responses.csproj",
         "projectName": "PersonelWebAPI.Responses",
-        "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Responses/PersonelWebAPI.Responses.csproj",
+        "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Responses/PersonelWebAPI.Responses.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Responses/obj/",
+        "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Responses/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -262,8 +262,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj": {
-                "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj"
+              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj"
               }
             }
           }
@@ -297,14 +297,14 @@
         }
       }
     },
-    "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj": {
+    "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj",
+        "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj",
         "projectName": "PersonelWebAPI.Services",
-        "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj",
+        "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Services/obj/",
+        "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -319,14 +319,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj": {
-                "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj"
+              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj"
               },
-              "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Requests/PersonelWebAPI.Requests.csproj": {
-                "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Requests/PersonelWebAPI.Requests.csproj"
+              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj"
               },
-              "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Responses/PersonelWebAPI.Responses.csproj": {
-                "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Responses/PersonelWebAPI.Responses.csproj"
+              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Requests/PersonelWebAPI.Requests.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Requests/PersonelWebAPI.Requests.csproj"
+              },
+              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Responses/PersonelWebAPI.Responses.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Responses/PersonelWebAPI.Responses.csproj"
               }
             }
           }
@@ -360,14 +363,14 @@
         }
       }
     },
-    "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj": {
+    "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj",
+        "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj",
         "projectName": "PersonelWebAPI.Managers",
-        "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj",
+        "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/obj/",
+        "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPIManagers/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -382,17 +385,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {
-                "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj"
+              "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj"
               },
-              "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj": {
-                "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj"
+              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj"
               },
-              "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj": {
-                "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj"
+              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj"
               },
-              "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj": {
-                "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj"
+              "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj": {
+                "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Services/PersonelWebAPI.Services.csproj"
               }
             }
           }

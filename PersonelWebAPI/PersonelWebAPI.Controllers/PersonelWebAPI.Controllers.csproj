@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PersonelWebAPI.Business\PersonelWebAPI.Business.csproj" />
     <ProjectReference Include="..\PersonelWebAPI.DataAccess\PersonelWebAPI.DataAccess.csproj" />
     <ProjectReference Include="..\PersonelWebAPIManagers\PersonelWebAPI.Managers.csproj" />
   </ItemGroup>

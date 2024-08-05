@@ -25,7 +25,6 @@ namespace PersonelWebAPI.Managers.Concretes
             addres.CreatedDate = addresCreateRequest.CreatedDate;
             addres.PersonelId = addresCreateRequest.PersonelId;
             _context.Addresses.Add(addres);
-            _context.SaveChanges();
             AddresResponse addresResponse = new AddresResponse(addres);
             return addresResponse;
         }
@@ -34,7 +33,6 @@ namespace PersonelWebAPI.Managers.Concretes
         {
             var deleteAddres = _context.Addresses.Find(id);
             _context.Addresses.RemoveRange(deleteAddres);
-            _context.SaveChanges();
         }
 
         public AddresResponse GetAddresbyId(int id)
@@ -74,7 +72,6 @@ namespace PersonelWebAPI.Managers.Concretes
 
                     }
                 }
-                _context.SaveChanges();
             }
         }
     }

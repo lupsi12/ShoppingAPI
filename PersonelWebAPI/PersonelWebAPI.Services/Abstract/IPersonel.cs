@@ -11,6 +11,7 @@ namespace PersonelWebAPI.Services.Abstract
 {
     public interface IPersonel
     {
+        
         List<PersonelResponse> GetAllPersonels(string? email = null, string? password = null);
         PersonelResponse GetPersonelById(int id);
         PersonelResponse AddPersonel(PersonelCreateRequest personelCreateRequest);

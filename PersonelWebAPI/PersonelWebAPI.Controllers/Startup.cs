@@ -1,7 +1,7 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿using PersonelWebAPI.Business.UnitOfWork;
 using PersonelWebAPI.DataAccess;
 using PersonelWebAPI.Managers.Concretes;
-using PersonelWebAPIManagers.Concretes;
+
 namespace PersonelWebAPI.Controllers
 {
     public class Startup
@@ -10,6 +10,7 @@ namespace PersonelWebAPI.Controllers
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddSingleton<WebAPIDbContext>();
             services.AddSingleton<SupplierManager>();
             services.AddSingleton<PersonelManager>();

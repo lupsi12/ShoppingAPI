@@ -4144,11 +4144,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj",
+      "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj",
       "projectName": "PersonelWebAPI.DataAccess",
-      "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj",
+      "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.DataAccess/obj/",
+      "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -4163,8 +4163,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj": {
-              "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj"
+            "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj": {
+              "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Entities/PersonelWebAPI.Entities.csproj"
             }
           }
         }

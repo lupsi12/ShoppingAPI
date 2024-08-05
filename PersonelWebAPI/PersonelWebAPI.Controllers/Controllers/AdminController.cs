@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PersonelWebAPI.Business.UnitOfWork;
 using PersonelWebAPI.Controllers.Abstract;
 using PersonelWebAPI.Managers.Concretes;
 using PersonelWebAPI.Requests;
@@ -10,37 +11,43 @@ namespace PersonelWebAPI.Controllers.Controllers
     [ApiController]
     public class AdminController : ControllerBase, IAdminController
     {
-        AdminManager _adminManager;
-        public AdminController(AdminManager adminManager)
+        private readonly IUnitOfWork _unitOfWork;
+
+        public AdminController(IUnitOfWork unitOfWork)
         {
-            _adminManager = adminManager;
+            this._unitOfWork = unitOfWork;
         }
+
         [HttpPost]
         public AdminResponse AddAdmin([FromBody] AdminCreateRequest adminCreateRequest)
         {
-            return _adminManager.AddAdmin(adminCreateRequest);
+            var response = _unitOfWork.AdminRepository.AddAdmin(adminCreateRequest);
+            _unitOfWork.Commit();
+            return response;
         }
         [HttpDelete("{id}")]
 
         public void DeleteAdmin(int id)
         {
-            _adminManager.DeleteAdmin(id);
+            _unitOfWork.AdminRepository.DeleteAdmin(id);
+            _unitOfWork.Commit();
         }
 
         [HttpGet("{id}")]
         public AdminResponse GetAdminById(int id)
         {
-            return _adminManager.GetAdminById(id);
+            return _unitOfWork.AdminRepository.GetAdminById(id);
         }
         [HttpGet]
         public List<AdminResponse> GetAllAdmins([FromQuery] string? email = null, [FromQuery] string? password = null)
         {
-            return _adminManager.GetAllAdmins(email, password);
+            return _unitOfWork.AdminRepository.GetAllAdmins(email, password);
         }
         [HttpPatch("{id}")]
         public void PartialUpdateAdmin(int id, [FromBody] Dictionary<string, object> updates)
         {
-            _adminManager.PartialUpdateAdmin(id, updates);
+            _unitOfWork.AdminRepository.PartialUpdateAdmin(id, updates);
+            _unitOfWork.Commit();
         }
     }
 }

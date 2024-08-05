@@ -1359,6 +1359,21 @@
           }
         }
       },
+      "PersonelWebAPI.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "PersonelWebAPI.DataAccess": "1.0.0",
+          "PersonelWebAPI.Managers": "1.0.0",
+          "PersonelWebAPI.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PersonelWebAPI.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PersonelWebAPI.Business.dll": {}
+        }
+      },
       "PersonelWebAPI.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1445,6 +1460,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "PersonelWebAPI.DataAccess": "1.0.0",
           "PersonelWebAPI.Entities": "1.0.0",
           "PersonelWebAPI.Requests": "1.0.0",
           "PersonelWebAPI.Responses": "1.0.0"
@@ -3881,6 +3897,11 @@
         "yamldotnet.nuspec"
       ]
     },
+    "PersonelWebAPI.Business/1.0.0": {
+      "type": "project",
+      "path": "../PersonelWebAPI.Business/PersonelWebAPI.Business.csproj",
+      "msbuildProject": "../PersonelWebAPI.Business/PersonelWebAPI.Business.csproj"
+    },
     "PersonelWebAPI.DataAccess/1.0.0": {
       "type": "project",
       "path": "../PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj",
@@ -3923,6 +3944,7 @@
       "Microsoft.EntityFrameworkCore >= 8.0.6",
       "Microsoft.EntityFrameworkCore.InMemory >= 8.0.6",
       "NSwag.AspNetCore >= 14.0.8",
+      "PersonelWebAPI.Business >= 1.0.0",
       "PersonelWebAPI.DataAccess >= 1.0.0",
       "PersonelWebAPI.Managers >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2",
@@ -3936,11 +3958,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Controllers/PersonelWebAPI.Controllers.csproj",
+      "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/PersonelWebAPI.Controllers.csproj",
       "projectName": "PersonelWebAPI.Controllers",
-      "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Controllers/PersonelWebAPI.Controllers.csproj",
+      "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/PersonelWebAPI.Controllers.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.Controllers/obj/",
+      "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -3955,11 +3977,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj": {
-              "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj"
+            "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Business/PersonelWebAPI.Business.csproj": {
+              "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Business/PersonelWebAPI.Business.csproj"
             },
-            "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj": {
-              "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj"
+            "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj": {
+              "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.DataAccess/PersonelWebAPI.DataAccess.csproj"
+            },
+            "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj": {
+              "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPIManagers/PersonelWebAPI.Managers.csproj"
             }
           }
         }

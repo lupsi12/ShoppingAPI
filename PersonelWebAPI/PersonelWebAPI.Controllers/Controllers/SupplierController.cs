@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PersonelWebAPI.Business.UnitOfWork;
 using PersonelWebAPI.Controllers.Abstract;
 using PersonelWebAPI.Managers.Concretes;
 using PersonelWebAPI.Requests;
@@ -11,36 +12,42 @@ namespace PersonelWebAPI.Controllers.Controllers
     [ApiController]
     public class SupplierController : ControllerBase, ISupplierController
     {
-        SupplierManager _supplierManager;
-        public SupplierController(SupplierManager supplierManager)
+        private readonly IUnitOfWork _unitOfWork;
+
+        public SupplierController(IUnitOfWork unitOfWork)
         {
-            _supplierManager = supplierManager;
+            this._unitOfWork = unitOfWork;
         }
+
         [HttpPost]
         public SupplierResponse AddSupplier([FromBody] SupplierCreateRequest supplierCreateRequest)
         {
-            return _supplierManager.AddSupplier(supplierCreateRequest);
+            var response = _unitOfWork.SupplierRepository.AddSupplier(supplierCreateRequest);
+            _unitOfWork.Commit();
+            return response;
         }
 
         [HttpDelete("{id}")]
         public void DeleteSupplier(int id)
         {
-            _supplierManager.DeleteSuplier(id);
+            _unitOfWork.SupplierRepository.DeleteSuplier(id);
+            _unitOfWork.Commit();
         }
         [HttpGet]
         public List<SupplierResponse> GetAllSuppliers([FromQuery] string? email = null,[FromQuery] string? password = null)
         {
-           return _supplierManager.GetAllSuppliers(email, password);
+           return _unitOfWork.SupplierRepository.GetAllSuppliers(email, password);
         }
         [HttpGet("{id}")]
         public SupplierResponse GetSupplierById(int id)
         {
-            return _supplierManager.GetSupplierById(id);
+            return _unitOfWork.SupplierRepository.GetSupplierById(id);
         }
         [HttpPatch("{id}")]
         public void PartialUpdateSupplier(int id,[FromBody] Dictionary<string, object> updates)
         {
-            _supplierManager.PartialUpdateSupplier(id, updates);
+            _unitOfWork.SupplierRepository.PartialUpdateSupplier(id, updates);
+            _unitOfWork.Commit();
         }
     }
 }

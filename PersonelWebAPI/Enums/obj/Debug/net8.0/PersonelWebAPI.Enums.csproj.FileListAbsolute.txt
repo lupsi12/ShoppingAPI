@@ -10,3 +10,15 @@
 /Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/obj/Debug/net8.0/refint/PersonelWebAPI.Enums.dll
 /Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/obj/Debug/net8.0/PersonelWebAPI.Enums.pdb
 /Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/obj/Debug/net8.0/ref/PersonelWebAPI.Enums.dll
+/Users/user/Desktop/internShip/PersonelWebAPI/Enums/bin/Debug/net8.0/PersonelWebAPI.Enums.deps.json
+/Users/user/Desktop/internShip/PersonelWebAPI/Enums/bin/Debug/net8.0/PersonelWebAPI.Enums.dll
+/Users/user/Desktop/internShip/PersonelWebAPI/Enums/bin/Debug/net8.0/PersonelWebAPI.Enums.pdb
+/Users/user/Desktop/internShip/PersonelWebAPI/Enums/obj/Debug/net8.0/PersonelWebAPI.Enums.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Desktop/internShip/PersonelWebAPI/Enums/obj/Debug/net8.0/PersonelWebAPI.Enums.AssemblyInfoInputs.cache
+/Users/user/Desktop/internShip/PersonelWebAPI/Enums/obj/Debug/net8.0/PersonelWebAPI.Enums.AssemblyInfo.cs
+/Users/user/Desktop/internShip/PersonelWebAPI/Enums/obj/Debug/net8.0/PersonelWebAPI.Enums.csproj.CoreCompileInputs.cache
+/Users/user/Desktop/internShip/PersonelWebAPI/Enums/obj/Debug/net8.0/PersonelWebAPI.Enums.sourcelink.json
+/Users/user/Desktop/internShip/PersonelWebAPI/Enums/obj/Debug/net8.0/PersonelWebAPI.Enums.dll
+/Users/user/Desktop/internShip/PersonelWebAPI/Enums/obj/Debug/net8.0/refint/PersonelWebAPI.Enums.dll
+/Users/user/Desktop/internShip/PersonelWebAPI/Enums/obj/Debug/net8.0/PersonelWebAPI.Enums.pdb
+/Users/user/Desktop/internShip/PersonelWebAPI/Enums/obj/Debug/net8.0/ref/PersonelWebAPI.Enums.dll

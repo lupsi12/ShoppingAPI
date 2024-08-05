@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {}
+    "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {}
   },
   "projects": {
-    "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {
+    "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj",
+        "projectUniqueName": "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj",
         "projectName": "PersonelWebAPI.Enums",
-        "projectPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj",
+        "projectPath": "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/PersonelWebAPI.Enums.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/ShoppingAPI/PersonelWebAPI/Enums/obj/",
+        "outputPath": "/Users/user/Desktop/internShip/PersonelWebAPI/Enums/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"

@@ -30,7 +30,6 @@ namespace PersonelWebAPI.Managers.Concretes
             supplier.Status = supplierCreateRequest.Status;
             supplier.AdminId = supplierCreateRequest.AdminId;
             _context.Suppliers.Add(supplier);
-            _context.SaveChanges();
             SupplierResponse supplierResponse = new SupplierResponse(supplier);
             return supplierResponse;
         }
@@ -41,7 +40,6 @@ namespace PersonelWebAPI.Managers.Concretes
             if (deleteSupplier != null)
             {
                 _context.Suppliers.Remove(deleteSupplier);
-                _context.SaveChanges();
             }
         }
         public List<SupplierResponse> GetAllSuppliers(string? email = null, string? password = null)
@@ -88,7 +86,6 @@ namespace PersonelWebAPI.Managers.Concretes
                             break;
                     }
                 }
-                _context.SaveChanges();
             }
         }
     }

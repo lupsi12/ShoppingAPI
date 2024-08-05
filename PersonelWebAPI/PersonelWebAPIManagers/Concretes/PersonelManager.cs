@@ -7,110 +7,100 @@ using PersonelWebAPI.Services.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace PersonelWebAPIManagers.Concretes
+namespace PersonelWebAPI.Managers.Concretes
 {
     public class PersonelManager : IPersonel
     {
+        private readonly WebAPIDbContext _context;
+        public PersonelManager(WebAPIDbContext webApiDbContext)
+        {
+            _context = webApiDbContext;
+        }
+
         public List<PersonelResponse> GetAllPersonels(string? email = null, string? password = null)
         {
-            using (var context = new WebAPIDbContext())
+            IQueryable<Personel> query = _context.Personels;
+            if (email != null && password != null)
             {
-                IQueryable<Personel> query = context.Personels;
-                if (email != null && password != null)
-                {
-                    query = query.Where(p => p.Email == email && p.Password == password);
-                }
-                else if (email != null)
-                {
-                    query = query.Where(p => p.Email == email);
-                }
-                List<PersonelResponse> personelResponses = query
-                    .Select(p => new PersonelResponse(p))
-                    .ToList();
-                return personelResponses;
+                query = query.Where(p => p.Email == email && p.Password == password);
             }
+            else if (email != null)
+            {
+                query = query.Where(p => p.Email == email);
+            }
+            List<PersonelResponse> personelResponses = query
+                .Select(p => new PersonelResponse(p))
+                .ToList();
+            return personelResponses;
         }
+
         public PersonelResponse GetPersonelById(int personelId)
         {
-            using (var context = new WebAPIDbContext())
-            {
-                Personel personel = context.Personels.Find(personelId);
-                PersonelResponse personelResponse = new PersonelResponse(personel);
-                return personelResponse;
-            }
+            Personel personel = _context.Personels.Find(personelId);
+            PersonelResponse personelResponse = new PersonelResponse(personel);
+            return personelResponse;
         }
+
         public PersonelResponse AddPersonel(PersonelCreateRequest personelCreateRequest)
         {
-            using(var context = new WebAPIDbContext())
-            {
-                Personel personel = new Personel();
-                personel.CreatedDate = DateTime.Now;
-                personel.Name = personelCreateRequest.Name;
-                personel.LastName = personelCreateRequest.LastName;
-                personel.Email = personelCreateRequest.Email;
-                personel.Password = personelCreateRequest.Password;
-                personel.BirthDate = personelCreateRequest.BirthDate;
-                //personel.Addresses = personelCreateRequest.Addresses;
-                personel.Phone = personelCreateRequest.Phone;
-                personel.Role = Roles.PERSONEL;
-                personel.Status = Status.APPROVAL_WAIT;
-                personel.AdminId = personelCreateRequest.AdminId;
-                context.Personels.Add(personel);
-                context.SaveChanges();
-                PersonelResponse personelResponse = new PersonelResponse(personel);
-                return personelResponse;
-            }
+            Personel personel = new Personel();
+            personel.CreatedDate = DateTime.Now;
+            personel.Name = personelCreateRequest.Name;
+            personel.LastName = personelCreateRequest.LastName;
+            personel.Email = personelCreateRequest.Email;
+            personel.Password = personelCreateRequest.Password;
+            personel.BirthDate = personelCreateRequest.BirthDate;
+            //personel.Addresses = personelCreateRequest.Addresses;
+            personel.Phone = personelCreateRequest.Phone;
+            personel.Role = Roles.PERSONEL;
+            personel.Status = Status.APPROVAL_WAIT;
+            personel.AdminId = personelCreateRequest.AdminId;
+
+            _context.Personels.Add(personel);
+
+            PersonelResponse personelResponse = new PersonelResponse(personel);
+            return personelResponse;
         }
+
         public void PartialUpdatePersonel(int id, Dictionary<string, object> updates)
         {
-            using (var context = new WebAPIDbContext())
-            {
-                var personel = context.Personels.FirstOrDefault(p => p.Id == id);
+            var personel = _context.Personels.FirstOrDefault(p => p.Id == id);
 
-                if (personel != null)
+            if (personel != null)
+            {
+                foreach (var update in updates)
                 {
-                    foreach (var update in updates)
+                    switch (update.Key.ToLower())
                     {
-                        switch (update.Key.ToLower())
-                        {
-                            case "name":
-                                personel.Name = update.Value.ToString();
-                                break;
-                            case "email":
-                                personel.Email = update.Value.ToString();
-                                break;
-                            case "password":
-                                personel.Password = update.Value.ToString();
-                                break;
-                            default:
-                                break;
-                        }
+                        case "name":
+                            personel.Name = update.Value.ToString();
+                            break;
+                        case "email":
+                            personel.Email = update.Value.ToString();
+                            break;
+                        case "password":
+                            personel.Password = update.Value.ToString();
+                            break;
+                        default:
+                            break;
                     }
-                    context.SaveChanges();
                 }
             }
         }
 
         public void DeleteAllPersonels()
         {
-            using (var context = new WebAPIDbContext())
-            {
-                var personels = context.Personels.ToList();
-                context.Personels.RemoveRange(personels);
-                context.SaveChanges();
-            }
+            var personels = _context.Personels.ToList();
+            _context.Personels.RemoveRange(personels);
         }
 
         public void DeletePersonel(int id)
         {
-            using (var context = new WebAPIDbContext())
+            var deletePersonel = _context.Personels.Find(id);
+            if (deletePersonel != null)
             {
-                var deletePersonel = context.Personels.Find(id);
-                context.Personels.RemoveRange(deletePersonel);
-                context.SaveChanges();
+                _context.Personels.Remove(deletePersonel);
             }
         }
     }

@@ -10,6 +10,10 @@
     <ProjectReference Include="..\PersonelWebAPI.Entities\PersonelWebAPI.Entities.csproj" />
     <ProjectReference Include="..\PersonelWebAPI.Requests\PersonelWebAPI.Requests.csproj" />
     <ProjectReference Include="..\PersonelWebAPI.Responses\PersonelWebAPI.Responses.csproj" />
+    <ProjectReference Include="..\PersonelWebAPI.DataAccess\PersonelWebAPI.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="UnitOfWork\" />
+  </ItemGroup>
 </Project>

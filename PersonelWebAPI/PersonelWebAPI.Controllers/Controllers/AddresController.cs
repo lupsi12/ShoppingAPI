@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PersonelWebAPI.Business.UnitOfWork;
 using PersonelWebAPI.Controllers.Abstract;
 using PersonelWebAPI.Managers.Concretes;
 using PersonelWebAPI.Requests;
@@ -10,39 +11,45 @@ namespace PersonelWebAPI.Controllers.Controllers
     [ApiController]
     public class AddresController : ControllerBase,IAddresController
     {
-        AddresManager _addresManager;
-        public AddresController(AddresManager addresManager)
+        private readonly IUnitOfWork _unitOfWork;
+
+        public AddresController(IUnitOfWork unitOfWork)
         {
-            _addresManager = addresManager;
+            this._unitOfWork = unitOfWork;
         }
+
         [HttpPost]
         public AddresResponse AddAddres(AddresCreateRequest addresCreateRequest)
         {
-            return _addresManager.AddAddres(addresCreateRequest);
+            var response = _unitOfWork.AddresRepository.AddAddres(addresCreateRequest);
+            _unitOfWork.Commit();
+            return response;
         }
         [HttpDelete("{id}")]
         public void DeleteAddres(int id)
         {
-            _addresManager.DeleteAddres(id);
+            _unitOfWork.AddresRepository.DeleteAddres(id);
+            _unitOfWork.Commit();
         }
 
         [HttpGet]
         public List<AddresResponse> GetAllAddres([FromQuery] int? personelId = null)
         {
-            return _addresManager.GetAllAddres(personelId);
+            return _unitOfWork.AddresRepository.GetAllAddres(personelId);
         }
 
 
         [HttpGet("{id}")]
         public AddresResponse GetAddresById(int id)
         {
-            return _addresManager.GetAddresbyId(id);
+            return _unitOfWork.AddresRepository.GetAddresbyId(id);
         }
 
         [HttpPatch("{id}")]
         public void PartialUpdateAddres(int id, [FromBody] Dictionary<string, object> updates)
         {
-            _addresManager.PartialUpdateAddres(id, updates);
+            _unitOfWork.AddresRepository.PartialUpdateAddres(id, updates);
+            _unitOfWork.Commit();
         }
     }
 }

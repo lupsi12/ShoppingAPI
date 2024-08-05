@@ -27,7 +27,6 @@ namespace PersonelWebAPI.Managers.Concretes
             admin.Password = adminCreateRequest.Password;
             admin.Role = Enums.Roles.ADMIN;
             _context.Admins.Add(admin);
-            _context.SaveChanges();
             AdminResponse adminResponse = new AdminResponse(admin);
             return adminResponse;
         }
@@ -36,7 +35,6 @@ namespace PersonelWebAPI.Managers.Concretes
         {
             var deleteAdmin = _context.Admins.Find(id);
             _context.Admins.RemoveRange(deleteAdmin);
-            _context.SaveChanges();
         }
 
         public AdminResponse GetAdminById(int id)
@@ -79,7 +77,6 @@ namespace PersonelWebAPI.Managers.Concretes
                             break;
                     }
                 }
-                _context.SaveChanges();
             }
         }
     }
