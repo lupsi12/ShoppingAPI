@@ -31,7 +31,7 @@ const Header = () => {
                         <div className="input-space">
                             <input type="text" tabIndex="1" maxLength="50" placeholder="Aradığınız ürün, kategori veya üreticiyi yazınız" value=""/>
                             <div className="search">
-                                <SearchIcon style={{ color: 'rgba(134,33,101,255)' , fontSize: '23px', marginRight: '5px', marginLeft: '4px', paddingTop: '6px' }} />
+                                <SearchIcon style={{ color: 'rgba(134,33,101,255)' , fontSize: '23px', marginRight: '10px', marginLeft: '4px', paddingTop: '6px' }} />
                             </div>
                         </div>
                         <div className="col-auto">

@@ -78,6 +78,7 @@
 .account a {
     text-decoration: none;
     color: rgba(134,33,101,255);
+    font-weight: bolder;
     font-size: 14px;
 }
 /* Mega menu kısmı */

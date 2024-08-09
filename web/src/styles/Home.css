@@ -1,29 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.home {
+    flex: 1;
+    display: flex;
+    padding: 20px 250px;
+    flex-direction: column;
+    font-family: Manrope, Open Sans, sans-serif;
+    line-height: 1.5;
+}
 .home-main {
     flex: 1;
-    background-color: aquamarine;
     display: flex; /* İçerikleri yatayda hizalar */
     justify-content: flex-end; /* İçerikleri sağa hizalar */
-    padding: 20px 250px;
+    margin-bottom: 10px;
 }
 .home-left{
     flex: 4;
-    background-color: brown;
+    display: flex;
+    background-color: #f8f8f8;
+    border-radius: 6px; /* Kenarların ovalleşme miktarı */
+    width: 100%;
+    height: 100%;
+}
+.home-left img{
+    flex: 1.7;
+    border-radius: 6px; /* Kenarların ovalleşme miktarı */
+    height: 100%;
+}
+.home-left p{
+    flex: 1;
+    text-align: end;
+    padding-right: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(183,48,145,255);
+    font-family: 'Manrope', Open Sans, sans-serif;
+    line-height: 1.5;
 }
 .home-right {
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
-    background-color: hotpink;
+    padding-left: 20px;
+    align-items: stretch;
 }
-.home-up {
+.mini-ad {
     flex: 1;
-    background-color: slateblue;
-    text-align: end;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    background-color: antiquewhite;
+    border-radius: 6px; /* Kenarların ovalleşme miktarı */
+}
+.mini-ad:not(:last-child) {
     margin-bottom: 20px;
 }
-.home-down {
-    flex: 1;
-    text-align: end;
-    background-color: #1D1E33;
+.mini-ad img{
+    width: 100%;
+    height: 185px;
+    border-radius: 6px; /* Kenarların ovalleşme miktarı */
 }
+.advertisement-main {
+    flex: 1;
+    display: flex; /* İçerikleri yatayda hizalar */
+    justify-content: flex-end; /* İçerikleri sağa hizalar */
+}
+.advertisement-left {
+    background-color:#ffff;
+    flex: 5;
+    display: flex; /* İçerikleri yatayda hizalar */
+    border-radius: 6px; /* Kenarların ovalleşme miktarı */
+}
+.slider {
+    flex: 1;
+    display: flex;
+}
+.advertisement {
+    flex: 1;
+    display: flex; /* İçerikleri yatayda hizalar */
+    height: 66px;
+    align-items: center;
+    padding: 8px;
+    width: 220px;
+    background-color: #f8f8f8;
+    border: 1px solid #e9e9e9;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.advertisement img {
+    border-radius: 6px; /* Kenarların ovalleşme miktarı */
+    height: 55px;
+}
+.advertisement p {
+    font-size: 10px;
+    font-weight:bolder;
+    text-align: end;
+    color: rgba(183,48,145,255);
+}
+.advertisement-right {
+    flex: 1;
+}
+.advertisement:not(:last-child)  {
+    margin-right: 10px;
+}
+.title {
+    color: rgba(183,48,145,255);
+    font-size: 15px;
+    font-family: Montserrat, Open Sans, sans-serif;
+  }
