@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PersonelWebAPI.Managers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14bb2666644243238703ef9f2d8962dbc500723e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49f0ec2122122094f10021505ccb3db0189c79f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersonelWebAPI.Managers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersonelWebAPI.Managers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

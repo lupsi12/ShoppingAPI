@@ -38,6 +38,11 @@ namespace PersonelWebAPI.Managers.Concretes
         public AddresResponse GetAddresbyId(int id)
         {
             var addres = _context.Addresses.Find(id);
+            if (addres == null)
+            {
+                // Hata yönetimi: Belirtilen ID'ye sahip bir personel bulunamadı
+                return null; // veya uygun bir hata yanıtı
+            }
             AddresResponse addresResponse = new AddresResponse(addres);
             return addresResponse;
         }
@@ -66,6 +71,12 @@ namespace PersonelWebAPI.Managers.Concretes
                     {
                         case "address":
                             addres.Address = update.Value.ToString();
+                            break;
+                        case "updateddate":
+                            if (DateTime.TryParse(update.Value.ToString(), out DateTime updateddate))
+                            {
+                                addres.UpdatedDate = updateddate;
+                            }
                             break;
                         default:
                             break;

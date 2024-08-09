@@ -78,6 +78,21 @@ namespace PersonelWebAPI.Managers.Concretes
                         case "description":
                             product.Description = update.Value.ToString();
                             break;
+                        case "name":
+                            product.Name = update.Value.ToString();
+                            break;
+                        case "stock":
+                            product.Stock = int.Parse(update.Value.ToString());
+                            break;
+                        case "price":
+                            product.Price = int.Parse(update.Value.ToString());
+                            break;
+                        case "updateddate":
+                            if (DateTime.TryParse(update.Value.ToString(), out DateTime updateddate))
+                            {
+                                product.UpdatedDate = updateddate;
+                            }
+                            break;
                         default:
                             break;
                     }

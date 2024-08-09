@@ -1,26 +1,160 @@
+/* Header genel stili */
 .header {
-    background-color: #68538e;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
+    padding: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0; /* Üstten uzaklık */
+    z-index: 1000; /* Diğer öğelerin üstünde olmasını sağlar */
+    background-color: #ffffff;
 }
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    font-size: 14px;
-    padding: 0 200px;
-}
-.navbar {
-    display:flex;
-    align-items:center;
+/* Ana container */
+.header-main {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.navbar li {
-    display: inline-block;
-    margin-left: 20px;
+/* İç container */
+.header-container {
+    display: flex;
+    width: 100%;
+}
+.header-container-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Elemanların sarmalanmasını sağlar */
+    width: 100%;
+    padding: 0 250px;
+}
+/* Logo kısmı */
+.skrill-logo {
+    flex: 1;
+}
+.skrill-logo img{
+    width: 100px;
+    height: 100px;
+}
+.input-space {
+    flex: 2;
+    display: flex; /* İçeriği yanyana hizalar */
+    justify-content: center; /* Orta hizalama */
+    align-items: center; /* Dikey olarak ortalama */
+    margin: 10px 0; /* Üst ve alt boşluk */
+}
+
+.input-space input {
+    width: 100%; /* Genişliği tam olarak kaplar */
+    max-width: 100%; /* Maksimum genişlik sınırı */
+    height: 100%;
+    padding: 10px; /* İç boşluk */
+    border: 1px solid rgba(134,33,101,255); /* Kenarlık */
+    border-radius: 4px; /* Köşe yuvarlama */
+    font-size: 14px; /* Yazı boyutu */
+}
+.search {
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgba(134,33,101,255); /* Kenarlık */
+    border-radius: 4px; /* Köşe yuvarlama */
+}
+/* Orta kısmı ayıran div */
+.col-auto {
+    flex: 1;
+    display: flex; /* İçerikleri yatayda hizalar */
+    justify-content: flex-end; /* İçerikleri sağa hizalar */
+}
+/* Alt kısımla alakalı olan bölüm */
+.col-12 {
+    flex-basis: 100%; /* Alt satıra geçmesini sağlar */
+    margin-top: 1px; /* Üstteki elementten boşluk bırakır */
+    margin-bottom: 10px;
+}
+.account {
+    border: 1px solid rgba(134,33,101,255); /* Kenar rengi */
+    border-radius: 8px; /* Kenarların ovalleşme miktarı */
+    padding: 13px; /* İçerik ile kenar arasındaki boşluk */
+    background-color: transparent; /* Arka plan rengini şeffaf yapar */
+}
+.account a {
     text-decoration: none;
-    list-style: none;
+    color: rgba(134,33,101,255);
+    font-size: 14px;
 }
-.navbar link {
-    text-decoration: overline;
+/* Mega menu kısmı */
+.megamenu {
+    display: flex;
+    justify-content: center;
 }
+/* Mega menu itemlerin containerı */
+.megamenu-items {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+/* Tek tek mega menu itemleri */
+.megamenu-items-item {
+    padding: 1px 30px;
+    position: relative;
+    display: inline-block;
+}
+.megamenu-items-item:hover {
+    border-bottom: 1px solid rgba(183,48,145,255);
+}
+.megamenu-items-item:first-child {
+    margin-left: 0; /* Eğer solda boşluk varsa */
+    padding-left: 0; /* Eğer solda padding varsa */
+}
+.megamenu-items-item a {
+    text-decoration: none;
+    color: #1D1E33;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+.megamenu-items-item:not(:last-child)::after {
+    content: "|"; /* Ayrım işareti */
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 23px;
+    transform: translateY(-50%);
+    color: rgb(192, 192, 192); /* Ayrım işareti rengi */
+}
+.offer {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(183,48,145,255); /* Kenar rengi */
+    border-radius: 60px; /* Kenarların ovalleşme miktarı */
+    padding: 2px; /* İçerik ile kenar arasındaki boşluk */
+    color: rgba(183,48,145,255);
+}
+.offer a {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+.megamenu-items-item a:hover {
+    color: rgba(134,33,101,255);
+}
+.dropdown .dropdown-alt {
+    display: none; /* Başlangıçta gizle */
+    position: absolute; /* Gösterim konumunu ayarla */
+    background-color: #ffffff; /* Arka plan rengi */
+    min-width: 200px; /* En küçük genişlik */
+    min-height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Gölge efekti */
+    border-radius: 10px; /* Kenarların ovalleşme miktarı */
+    z-index: 1; /* Katman sırası */
+}
+.dropdown:hover .dropdown-alt {
+    display: block; /* Hover durumunda göster */
+}
+.dropdown-alt-design {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.dropdown-alt-design a{
+    display: flex;
+    padding: 5px;
+}
+

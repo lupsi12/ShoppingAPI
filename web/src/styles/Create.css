@@ -1,7 +1,6 @@
 .createContainer {
     width: auto;
     height: 800px;
-    background-color: #7e6ba1 ;
     display: flex;
     justify-content: center;
     align-items: center;

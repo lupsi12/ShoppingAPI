@@ -1,14 +1,29 @@
-.homeContainer {
-    width: auto;
-    height: 800px;
-    background-color: #7e6ba1 ;
+.home-main {
+    flex: 1;
+    background-color: aquamarine;
+    display: flex; /* İçerikleri yatayda hizalar */
+    justify-content: flex-end; /* İçerikleri sağa hizalar */
+    padding: 20px 250px;
+}
+.home-left{
+    flex: 4;
+    background-color: brown;
+}
+.home-right {
+    flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+    background-color: hotpink;
 }
-.tableContainer {
-    width: 800px;
-    background-color: #68538e;
-    padding: 15px;
+.home-up {
+    flex: 1;
+    background-color: slateblue;
+    text-align: end;
+    margin-bottom: 20px;
 }
-
+.home-down {
+    flex: 1;
+    text-align: end;
+    background-color: #1D1E33;
+}

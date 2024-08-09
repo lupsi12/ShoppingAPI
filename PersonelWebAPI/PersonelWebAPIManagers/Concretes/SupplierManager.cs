@@ -80,8 +80,35 @@ namespace PersonelWebAPI.Managers.Concretes
                 {
                     switch (update.Key.ToLower())
                     {
+                        case "name":
+                            supplier.Name = update.Value.ToString();
+                            break;
                         case "description":
                             supplier.Description = update.Value.ToString();
+                            break;
+                        case "email":
+                            supplier.Email = update.Value.ToString();
+                            break;
+                        case "password":
+                            supplier.Password = update.Value.ToString();
+                            break;
+                        case "role":
+                            if (Enum.TryParse(typeof(Enums.Roles), update.Value.ToString(), out var role))
+                            {
+                                supplier.Role = (Enums.Roles)role;
+                            }
+                            break;
+                        case "status":
+                            if (Enum.TryParse(typeof(Status), update.Value.ToString(), out var status))
+                            {
+                                supplier.Status = (Status)status;
+                            }
+                            break;
+                        case "updateddate":
+                            if (DateTime.TryParse(update.Value.ToString(), out DateTime updateddate))
+                            {
+                                supplier.UpdatedDate = updateddate;
+                            }
                             break;
                         default:
                             break;

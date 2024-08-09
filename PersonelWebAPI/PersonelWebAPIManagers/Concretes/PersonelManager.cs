@@ -38,6 +38,11 @@ namespace PersonelWebAPI.Managers.Concretes
         public PersonelResponse GetPersonelById(int personelId)
         {
             Personel personel = _context.Personels.Find(personelId);
+            if (personel == null)
+            {
+                // Hata yönetimi: Belirtilen ID'ye sahip bir personel bulunamadı
+                return null; // veya uygun bir hata yanıtı
+            }
             PersonelResponse personelResponse = new PersonelResponse(personel);
             return personelResponse;
         }
@@ -48,6 +53,11 @@ namespace PersonelWebAPI.Managers.Concretes
             personel.CreatedDate = DateTime.Now;
             personel.Name = personelCreateRequest.Name;
             personel.LastName = personelCreateRequest.LastName;
+            if (string.IsNullOrEmpty(personel.Email) || !personel.Email.EndsWith("@gmail.com"))
+            {
+                throw new ArgumentException("Email must be a valid @gmail.com address.");
+            }
+            else
             personel.Email = personelCreateRequest.Email;
             personel.Password = personelCreateRequest.Password;
             personel.BirthDate = personelCreateRequest.BirthDate;
@@ -76,11 +86,41 @@ namespace PersonelWebAPI.Managers.Concretes
                         case "name":
                             personel.Name = update.Value.ToString();
                             break;
+                        case "lastname":
+                            personel.LastName = update.Value.ToString();
+                            break;
                         case "email":
                             personel.Email = update.Value.ToString();
                             break;
                         case "password":
                             personel.Password = update.Value.ToString();
+                            break;
+                        case "role":
+                            if (Enum.TryParse(typeof(Enums.Roles), update.Value.ToString(), out var role))
+                            {
+                                personel.Role = (Enums.Roles)role;
+                            }
+                            break;
+                        case "phone":
+                            personel.Phone = update.Value.ToString();
+                            break;
+                        case "birthdate":
+                            if (DateTime.TryParse(update.Value.ToString(), out DateTime birthDate))
+                            {
+                                personel.BirthDate = birthDate;
+                            }
+                            break;
+                        case "status":
+                            if (Enum.TryParse(typeof(Status), update.Value.ToString(), out var status))
+                            {
+                                personel.Status = (Status)status;
+                            }
+                            break;
+                        case "updateddate":
+                            if (DateTime.TryParse(update.Value.ToString(), out DateTime updateddate))
+                            {
+                                personel.UpdatedDate = updateddate;
+                            }
                             break;
                         default:
                             break;

@@ -15,9 +15,9 @@ namespace PersonelWebAPI.Entities
         [StringLength(100)]
         public string LastName { get; set; }
 
-        [Required(ErrorMessage = "Email is required")]
-        [StringLength(100)]
-        [EmailAddress(ErrorMessage = "Invalid email address")]
+        // [Required(ErrorMessage = "Email is required")]
+        // [StringLength(100)]
+        // [EmailAddress(ErrorMessage = "Invalid email address")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Password is required")]

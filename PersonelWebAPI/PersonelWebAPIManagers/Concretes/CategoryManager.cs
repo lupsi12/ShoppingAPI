@@ -71,6 +71,12 @@ namespace PersonelWebAPI.Managers.Concretes
                         case "name":
                             category.Name = update.Value.ToString();
                             break;
+                        case "updateddate":
+                            if (DateTime.TryParse(update.Value.ToString(), out DateTime updateddate))
+                            {
+                                category.UpdatedDate = updateddate;
+                            }
+                            break;
                         default:
                             break;
                     }

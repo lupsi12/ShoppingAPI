@@ -32,7 +32,6 @@ namespace PersonelWebAPI.Managers.Concretes
         public void DeleteCartDetail(int id)
         {
             var deleteCartDetail = _context.CartDetails.Find(id);
-
             if (deleteCartDetail != null)
             {
                 _context.CartDetails.Remove(deleteCartDetail);
@@ -68,17 +67,23 @@ namespace PersonelWebAPI.Managers.Concretes
         public void PartialUpdateCartDetail(int id, Dictionary<string, object> updates)
         {
             
-            var CartDetail = _context.CartDetails.FirstOrDefault(x => x.Id == id);
-            if (CartDetail != null)
+            var cartDetail = _context.CartDetails.FirstOrDefault(x => x.Id == id);
+            if (cartDetail != null)
             {
                 foreach (var update in updates)
                 {
                     switch (update.Key.ToLower())
                     {
-                        case "instantPrice":
+                        case "instantprice":
                             if (int.TryParse(update.Value.ToString(), out int instantPrice))
                             {
-                                CartDetail.InstantPrice = instantPrice;
+                                cartDetail.InstantPrice = instantPrice;
+                            }
+                            break;
+                        case "updateddate":
+                            if (DateTime.TryParse(update.Value.ToString(), out DateTime updateddate))
+                            {
+                                cartDetail.UpdatedDate = updateddate;
                             }
                             break;
                         default:

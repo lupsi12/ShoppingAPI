@@ -40,6 +40,11 @@ namespace PersonelWebAPI.Managers.Concretes
         public AdminResponse GetAdminById(int id)
         {
             Admin admin = _context.Admins.Find(id);
+            if (admin == null)
+            {
+                // Hata yönetimi: Belirtilen ID'ye sahip bir personel bulunamadı
+                return null; // veya uygun bir hata yanıtı
+            }
             AdminResponse adminResponse = new AdminResponse(admin);
             return adminResponse;
         }
@@ -70,8 +75,23 @@ namespace PersonelWebAPI.Managers.Concretes
                 {
                     switch (update.Key.ToLower()) 
                     {
+                        case "email":
+                            admin.Email = update.Value.ToString();
+                            break;
                         case "password":
                             admin.Password = update.Value.ToString();
+                            break;
+                        case "role":
+                            if (Enum.TryParse(typeof(Enums.Roles), update.Value.ToString(), out var role))
+                            {
+                                admin.Role = (Enums.Roles)role;
+                            }
+                            break;
+                        case "updateddate":
+                            if (DateTime.TryParse(update.Value.ToString(), out DateTime updateddate))
+                            {
+                                admin.UpdatedDate = updateddate;
+                            }
                             break;
                         default:
                             break;

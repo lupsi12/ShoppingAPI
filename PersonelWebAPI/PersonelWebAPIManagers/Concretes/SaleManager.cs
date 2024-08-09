@@ -74,6 +74,12 @@ namespace PersonelWebAPI.Managers.Concretes
                         //     break;
                         // default:
                         //     break;
+                        case "updateddate":
+                            if (DateTime.TryParse(update.Value.ToString(), out DateTime updateddate))
+                            {
+                                sale.UpdatedDate = updateddate;
+                            }
+                            break;
                     }
                 }
             }

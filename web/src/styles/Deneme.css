@@ -1,0 +1,13 @@
+.homeContainer {
+    width: auto;
+    height: 1200px;
+//background-color: #7e6ba1 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tableContainer {
+    width: 800px;
+//background-color: #68538e;
+    padding: 15px;
+}

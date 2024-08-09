@@ -78,6 +78,12 @@ namespace PersonelWebAPI.Managers.Concretes
                                 cart.CartStatus = status;
                             }
                             break;
+                        case "updateddate":
+                            if (DateTime.TryParse(update.Value.ToString(), out DateTime updateddate))
+                            {
+                                cart.UpdatedDate = updateddate;
+                            }
+                            break;
                         default:
                             break;
                     }

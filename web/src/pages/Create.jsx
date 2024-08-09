@@ -24,7 +24,7 @@ const Create = () => {
         const updatedFormData = { ...formData, date: selectedDate };
 
         try {
-            const url = 'http://localhost:63681/api/personel'; // POST işlemi yapılacak API URL'i
+            const url = 'http://localhost:5250/api/personel'; // POST işlemi yapılacak API URL'i
             const responseData = await createPost(updatedFormData, url); // createPost fonksiyonunu kullanarak POST işlemi yapılıyor
             
             // POST işlemi başarılı olduğunda yapılabilecek işlemler
