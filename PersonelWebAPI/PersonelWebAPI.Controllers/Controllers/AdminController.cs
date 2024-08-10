@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PersonelWebAPI.UnitOfWork.UnitOfWork;
 using PersonelWebAPI.Controllers.Abstract;
 using PersonelWebAPI.Managers.Concretes;
@@ -18,6 +19,7 @@ namespace PersonelWebAPI.Controllers.Controllers
             this._unitOfWork = unitOfWork;
         }
 
+        [Authorize(Roles = "ADMIN")]
         [HttpPost]
         public AdminResponse AddAdmin([FromBody] AdminCreateRequest adminCreateRequest)
         {

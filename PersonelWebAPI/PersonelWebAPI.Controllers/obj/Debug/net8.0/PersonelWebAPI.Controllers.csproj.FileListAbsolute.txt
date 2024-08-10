@@ -303,3 +303,6 @@ C:/Users/Isil.Kefal/source/repos/PersonelWebAPI/PersonelWebAPI.Controllers/obj/D
 /Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/obj/Debug/net8.0/ref/PersonelWebAPI.Controllers.dll
 /Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/bin/Debug/net8.0/PersonelWebAPI.UnitOfWork.dll
 /Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/bin/Debug/net8.0/PersonelWebAPI.UnitOfWork.pdb
+/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/bin/Debug/net8.0/PersonelWebAPI.JWT.dll
+/Users/user/Desktop/internShip/PersonelWebAPI/PersonelWebAPI.Controllers/bin/Debug/net8.0/PersonelWebAPI.JWT.pdb
