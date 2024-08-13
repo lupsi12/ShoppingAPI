@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PersonelWebAPI.Requests
 {
-    public class AdminLoginRequest
+    public class LoginRequest
     {
         public string Email { get; set; }
         public string Password { get; set; }
