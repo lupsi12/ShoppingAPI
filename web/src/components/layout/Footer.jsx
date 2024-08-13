@@ -28,7 +28,7 @@ const Footer = () => {
                         </h2>
                         <ul className='lu'>
                             <li>
-                                <a href="/create" title="" target="_self" rel="noopener noreferrer">Bize Ulaşın
+                                <a href="/bize-ulasin" title="" target="_self" rel="noopener noreferrer">Bize Ulaşın
                                 </a>
                             </li>
                             <li>

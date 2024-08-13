@@ -44,7 +44,7 @@ const Header = () => {
                                 <div className="megamenu-items">
                                     <div className="dropdown">
                                         <div className="megamenu-items-item">
-                                            <a href="/home">
+                                            <a href="/create">
                                                 Kategoriler
                                             </a>
                                         </div>

@@ -1,0 +1,25 @@
+.contact-container {
+    flex: 1;
+    display: flex;
+    padding: 40px 250px;
+    flex-direction: column;
+}
+.h2-container {
+    color: #1d1e33;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33.35px;
+    margin-bottom: 20px;
+}
+.main-container {
+    background: #fff;
+    border: 1px solid #e4e4e8;
+    border-radius: 6px;
+    padding: 100px 15px;
+}
+.main-container p {
+    margin-bottom: 16px;
+}
+.main-container a {
+    color:  rgba(134,33,101,255);;
+}
